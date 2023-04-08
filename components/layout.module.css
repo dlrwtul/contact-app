@@ -1,0 +1,12 @@
+.headerText {
+    color : white;
+    font-weight : bold;
+}
+
+.container {
+    padding : 0;
+}
+
+.content {
+    padding :20px 50px 
+}

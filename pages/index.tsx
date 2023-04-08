@@ -1,13 +1,11 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
+import ListContactView from "../components/contacts/pages/ListContact"
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
+const IndexPage = () => {
+  return (
+  <Layout title="Home | ContactApp">
+    <ListContactView/>
   </Layout>
-)
+)}
 
 export default IndexPage
